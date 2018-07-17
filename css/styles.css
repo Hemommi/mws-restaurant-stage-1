@@ -287,8 +287,68 @@ nav h1 a {
     letter-spacing: 30px;
   }
   #map {
-    height: 450px;
+    height: 550px;
     width: 100%;
+  }
+  #restaurants-list li {
+    margin-left: 5px;
+   }
+   .inside #map-container {
+    height: 480px;
+    width: 100%;
+    top: 130px;
+  }
+  #breadcrumb {
+    width: 100%;
+  }
+  #breadcrumb li a {
+    font-size: 26px;
+  }
+  ul, li {
+	  font-size: 26px;
+  }
+  nav h1 a {
+    font-size: 24pt;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  #restaurant-img {
+    width: 1055px;
+    height: 650px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  #reviews-container {
+    width: 100%;
+  }
+  #restaurant-container {
+    margin-top: 500px;  
+    width: 100%;
+  }
+  #restaurant-address {
+    font-size: 20pt;
+  }
+  #restaurant-cuisine {
+    font-size: 16pt;
+  }
+  #restaurant-name {
+    font-size: 27pt;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  #footer {
+    margin-left: -30px;
+    font-size: 18pt;
+  }
+  .inside #footer {
+    width: 100%;
+  }
+  #reviews-list li {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  p {
+    font-size: 27px;
   }
 }
 /*On screens that are min-width: 601px and max-width 768px*/
@@ -304,10 +364,56 @@ nav h1 a {
   #restaurants-list li {
     margin-left: 5px;
     margin-right: 2px;
+    width: 210px;
    }
+  .inside #map-container {
+    height: 280px;
+    width: 100%;
+    top: 130px;
+  }
+  #breadcrumb {
+    width: 100%;
+  }
+  #breadcrumb li a {
+    font-size: 22px;
+  }
+  ul, li {
+	  font-size: 20px;
+  }
+  nav h1 a {
+    font-size: 15pt;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  #restaurant-img {
+    width: 650px;
+    height: 410px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  #reviews-container {
+    width: 95%;
+  }
+  #restaurant-container {
+    margin-top: 280px;  
+    width: 94%;
+  }
+  #restaurant-address {
+    font-size: 17pt;
+  }
+  #footer {
+    margin-left: -30px;
+  }
+  .inside #footer {
+    width: 100%;
+  }
+  #reviews-list li {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
 }
-/*On screens that are 600px or less*/
-@media only screen and (max-width: 600px) {
+/*On screens that are between 510px and 600px*/
+@media only screen and (min-width: 510px) and (max-width: 600px) {
   nav h1 a {
     font-size: 11pt;
     letter-spacing: 10px;
@@ -358,7 +464,7 @@ nav h1 a {
   }
   #restaurant-container {
     margin-top: 280px;  
-    width: 60%;
+    width: 92%;
   }
   #restaurant-address {
     font-size: 16pt;
@@ -372,6 +478,5 @@ nav h1 a {
   #reviews-list li {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    
   }
 }
