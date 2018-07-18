@@ -413,7 +413,7 @@ nav h1 a {
   }
 }
 /*On screens that are between 510px and 600px*/
-@media only screen and (min-width: 510px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   nav h1 a {
     font-size: 11pt;
     letter-spacing: 10px;
