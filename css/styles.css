@@ -18,7 +18,7 @@ ul, li {
   color: #333;
 }
 a {
-	color: #ff9900;
+	color: #fdfdfd;
   text-decoration: none;
   font-size: 17px;
 }
@@ -42,7 +42,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #fff;
   font-size: 12pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -78,18 +78,20 @@ nav h1 a {
 /* Display list items side by side */
 #breadcrumb li {
     display: inline;
+    color: #be0606;
+    font-weight: 450;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color:black;
     content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #01447e;
     text-decoration: none;
     font-weight: 550;
 }
@@ -109,7 +111,7 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 90px;
-  background-color: #3397DB;
+  background-color: #085c94;
   align-items: center;
 }
 .filter-options h2 {
@@ -164,7 +166,7 @@ nav h1 a {
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #ff9900;
+  color: #be0606;
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 550;
@@ -178,7 +180,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #be0606;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -216,7 +218,7 @@ nav h1 a {
   width: 50%;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #be0606;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 550;
@@ -254,7 +256,7 @@ nav h1 a {
   padding: 30px 40px 80px;
 }
 #reviews-container h2 {
-  color: #ff9900;
+  color: #be0606;
   font-size: 24pt;
   font-weight: 550;
   letter-spacing: -1px;
@@ -275,14 +277,11 @@ nav h1 a {
   position: relative;
   width: 87%;
 }
-#reviews-list li p {
-  margin: 0 0 10px;
-}
 #restaurant-hours td {
-  color: #666;
+  color: #333;
 }
-/*On screens that are min-width 769px and max-width: 1200px*/
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
+/*On screens that are min-width 769px and max-width: 992px*/
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   nav {
     height: 50px;
   }
@@ -331,7 +330,7 @@ nav h1 a {
   }
   #restaurant-name {
     font-size: 16pt;
-    font-weight: 250;
+    font-weight: 450;
     line-height: 1.5;
   }
   td,th{
@@ -356,7 +355,6 @@ nav h1 a {
     font-size: 12px;
   }
   #reviews-container h2 {
-    color: #f18200;
     font-size: 16pt;
     font-weight: 250;
     letter-spacing: -1px;
@@ -365,7 +363,7 @@ nav h1 a {
   } 
   #reviews-list li {
     display: block;
-    margin: 0 0 5px;
+    margin: 20px 0 5px;
     overflow: hidden;
     padding: 0 10px 10px;
     position: relative;
@@ -379,10 +377,10 @@ nav h1 a {
     width: 67.5%;
   }
 /*On screens that are min-width: 601px and max-width 768px*/
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   nav h1 a{
-    font-size: 13pt;
-    letter-spacing: 20px;
+    font-size: 12pt;
+    letter-spacing: 10px;
   }
   #map {
     height: 320px;
@@ -437,13 +435,14 @@ nav h1 a {
   .inside #footer {
     width: 100%;
   }
+  }
   #reviews-list li {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
 }
-/*On screens that are between 510px and 600px*/
-@media only screen and (max-width: 600px) {
+/*On screens that is max-width 600px*/
+@media only screen and (max-width: 480px) {
   nav h1 a {
     font-size: 11pt;
     letter-spacing: 10px;
@@ -458,14 +457,8 @@ nav h1 a {
   #restaurants-list li {
    margin-left: 100px;
   }
-  /*.filter-options {
-    height: 140px;  
-  }
-  .filter-options select {
-    flex-direction: column;
-  }*/
   .inside #map-container {
-    height: 280px;
+    height: 120px;
     width: 100%;
     top: 130px;
   }
@@ -474,13 +467,15 @@ nav h1 a {
   }
   #breadcrumb li a {
     font-size: 20px;
+    font-weight: 400;
   }
   ul, li {
-	  font-size: 20px;
+    font-size: 20px;
+    font-weight: 200;
   }
   nav h1 a {
     font-size: 15pt;
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 10px;
   }
   #restaurant-img {
@@ -509,4 +504,5 @@ nav h1 a {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
+}
 }
