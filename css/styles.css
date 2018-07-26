@@ -409,13 +409,13 @@ nav h1 a {
     border-bottom-right-radius: 30px;
   }
   #reviews-container {
-    width: 100%;
+    width: 87%;
   }
   #restaurant-cuisine {
     width: 87%;
   }
   #restaurant-container {  
-    width: 100%;
+    width: 98%;
     margin-top: 220px;
   }
   #restaurant-address {
@@ -453,14 +453,14 @@ nav h1 a {
     flex-direction: column;
   }
   #restaurants-list li {
-   margin-left: 100px;
+   margin-left: 70px;
     min-height: 190px;
     width: 235px;
   }
   .inside #map-container {
     height: 200px;
     width: 100%;
-    top: 130px;
+    top: 105px;
   }
   #breadcrumb {
     width: 100%;
@@ -492,7 +492,7 @@ nav h1 a {
     border-bottom-right-radius: 30px;
   }
   #reviews-container {
-    width: 88%;
+    width: 82%;
   }
   #reviews-container h2 {
     font-size: 17pt;
@@ -500,7 +500,7 @@ nav h1 a {
   }
   #restaurant-container {
     margin-top: 200px;  
-    width: 88%;
+    width: 92%;
   }
   #restaurant-name {
     font-size: 17pt;
