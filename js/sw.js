@@ -5,6 +5,7 @@ self.addEventListener('install',event => {
     event.waitUntil(
         caches.open('static')
             .then(cache => {
+                console.log('Cache is open');
                 return cache.add([
                     '/index.html',
                     '/restaurant.html',
@@ -26,16 +27,6 @@ self.addEventListener('install',event => {
                 ]).catch(error => {
                 console.log('Open failed:', error);
             });
-        })
-    );
-});
-
-self.addEventListener('instal', event => {
-    event.waitUntil (
-        caches.open('static')
-        .then (function(cache){
-            console.log('Cache is open');
-            return cache.add(urlsToCache);
         })
     );
 });
