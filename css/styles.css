@@ -283,18 +283,18 @@ nav h1 a {
 /*On screens that max-width: 1024px*/
 @media only screen and (max-width: 1024px) {
   nav {
-    height: 50px;
+    height: 80px;
   }
   .inside #map-container {
-    height: 150px;
-    width: 100%;
-    top: 100px;
+    height: 490px;
+    width: 50%;
+    top: 128.5px;
   }
   #breadcrumb {
     width: 100%;
   }
   #breadcrumb li a {
-    font-size: 18px;
+    font-size: 20px;
   }
   #breadcrumb li {
     color: #be0606;
@@ -308,10 +308,7 @@ nav h1 a {
     letter-spacing: 10px;
   }
   #restaurant-container {
-    width: 48;
-  }
-  #restaurant-container {
-    margin-top: 120px;
+    margin-top: 0px;
   }
   #restaurant-address {
     font-size: 15pt;
@@ -352,6 +349,9 @@ nav h1 a {
   p {
     font-size: 12px;
   }
+  #reviews-container {
+    width: 48%;
+  }
   #reviews-container h2 {
     font-size: 16pt;
     font-weight: 250;
@@ -368,11 +368,11 @@ nav h1 a {
     width: 95%;
   }
   #restaurant-img {
-    width: 357px;
-    height: 210px;
+    width: 420px;
+    height: 270px;
   }
   #restaurant-cuisine {
-    width: 67.5%;
+    width: 79%;
   }
 /*On screens that max-width 768px*/
 @media only screen and (max-width: 768px) {
