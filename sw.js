@@ -1,4 +1,4 @@
-//*Install; Creating and opens a cache store*/
+/*Install; Creating and opens a cache store*/
 self.addEventListener('install',function(event){ 
     event.waitUntil(
         caches.open('static').then(cache => {
