@@ -55,6 +55,7 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+  vertical-align: middle;
 }
 nav h1 {
   margin: auto;
@@ -486,8 +487,8 @@ nav h1 a {
   }
   
   #restaurant-img {
-    width: 380px;
-    height: 230px;
+    width: 70%;
+    height: 100%;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
