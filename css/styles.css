@@ -281,8 +281,8 @@ nav h1 a {
 #restaurant-hours td {
   color: #333;
 }
-/*On screens that max-width: 1024px*/
-@media only screen and (max-width: 1024px) {
+/*On screens that min-width: 769px and max-width: 1024px*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   nav {
     height: 80px;
   }
@@ -308,6 +308,9 @@ nav h1 a {
     font-weight: 100;
     letter-spacing: 10px;
   }
+  #map {
+    height: 320px;
+  }
   #restaurant-container {
     margin-top: 0px;
   }
@@ -321,9 +324,12 @@ nav h1 a {
     margin-left: 15px;
   }
   #restaurants-list li {
-    min-height: 190px;
-    width: 235px;
-}
+    margin-left: 5px;
+    margin-right: 2px;
+    height: auto;
+    width: auto;
+    max-width: 23%;
+  }
   #restaurant-name {
     font-size: 16pt;
     font-weight: 450;
@@ -351,7 +357,8 @@ nav h1 a {
     font-size: 12px;
   }
   #reviews-container {
-    width: 48%;
+    width: 43.5%;
+    max-width: auto;
   }
   #reviews-container h2 {
     font-size: 16pt;
@@ -369,25 +376,27 @@ nav h1 a {
     width: 95%;
   }
   #restaurant-img {
-    width: 420px;
-    height: 270px;
+    max-width: 85%;
+    height: auto;
+    width: auto;
+    max-height: 20%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
   #restaurant-cuisine {
-    width: 79%;
+    width: 85%;
   }
-/*On screens that max-width 768px*/
-@media only screen and (max-width: 768px) {
+/*On screens min-width 601px and max-width 768px*/
+@media only screen and (min-width: 601px) and (max-width: 768px) {
   nav h1 a{
     font-size: 15pt;
     letter-spacing: 8px;
   }
   #map {
-    height: 280px;
-    width: 100%;
-    background-color: #ccc;
+    height: 200px;
   }
   .inside #map-container {
-    height: 250px;
+    height: 240px;
     width: 100%;
     top: 105px;
   }
@@ -399,34 +408,46 @@ nav h1 a {
   }
   #breadcrumb li {
     color:#be0606;
-}
+  }
   ul, li {
 	  font-size: 20px;
   }
+  p {
+    font-size: 10px;
+  }
+  td {
+  font-size: 12px;
+  }
   #restaurant-img {
-    width: 660px;
-    height: 380px;
+    max-width: 30%;
+    height: auto;
+    width: auto;
+    max-height: 20%;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
   #reviews-container {
-    width: 87%;
+    width: 43.5%;
+    max-width: auto;
   }
   #restaurant-cuisine {
-    width: 87%;
+    width: 92%;
   }
   #restaurant-container {  
     width: 98%;
-    margin-top: 220px;
+    margin-top: 240px;
   }
   #restaurant-address {
     font-size: 15pt;
   }
   #restaurants-list li {
-    min-height: 205px;
-    width: 250px;
-    margin-left: 15px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 2px;
+
+    height: auto;
+    width: auto;
+    /*max-width: 30%;*/
+    max-width: 25%;
   }
   #footer {
     margin-left: -30px;
@@ -440,8 +461,8 @@ nav h1 a {
     border-bottom-right-radius: 30px;
   }
 }
-/*On screens that is max-width 480px*/
-@media only screen and (max-width: 480px) {
+/*On screens that is max-width 600px*/
+@media only screen and (max-width: 600px) {
   nav h1 a {
     font-size: 11pt;
     letter-spacing: 10px;
@@ -454,9 +475,11 @@ nav h1 a {
     flex-direction: column;
   }
   #restaurants-list li {
-   margin-left: 70px;
-    min-height: 190px;
-    width: 235px;
+    margin-left: 2px;
+    margin-right: 10px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
   }
   .inside #map-container {
     height: 200px;
@@ -487,13 +510,16 @@ nav h1 a {
   }
   
   #restaurant-img {
-    width: 70%;
-    height: 100%;
+    max-width: 95%;
+    height: auto;
+    width: auto;
+    max-height: 20%;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
   #reviews-container {
-    width: 82%;
+    width: 88%;
+    max-width: auto;
   }
   #reviews-container h2 {
     font-size: 17pt;
@@ -501,7 +527,7 @@ nav h1 a {
   }
   #restaurant-container {
     margin-top: 170px;  
-    width: 92%;
+    width: 90%;
   }
   #restaurant-name {
     font-size: 17pt;
@@ -519,5 +545,12 @@ nav h1 a {
   #reviews-list li {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+  }
+  #restaurant-cuisine {
+    width: 95%;
+  }
+  .filter-options {
+    width: 100%;
+    height: auto;
   }
 }
