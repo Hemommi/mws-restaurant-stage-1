@@ -4,7 +4,7 @@
 
 ## Project Overview: Stage 1
 
-**Restaurant Reviews** project.
+## Restaurant Reviews** project.
 Restaurant Reviews is a static webpage converted to a mobile-ready web application. It is designed to be responsive on different display sizes and accessible for screen reader use. Service worker was  implemented to provide offline experience.
 
 
